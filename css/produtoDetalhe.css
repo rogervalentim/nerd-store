@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(360px,1fr));;
+    justify-content: center;
+    font-family: 'Montserrat',sans-serif;
+   
+}
+
+.produto-1{
+    max-width: 400px;
+    height:400px;
+    
+}
+
+.text{
+    font-size: 35px;
+}
+
+.preco{
+    font-size: 35px;
+    color:rgb(7, 174, 230)
+}
+
+.btn-buy{
+    border:none;
+    width:30%;
+    background-color:rgb(7, 174, 230);
+    height:50px;
+    font-size: 25px;
+    border-radius: 5px;
+    color:white ;
+    cursor: pointer;
+}
